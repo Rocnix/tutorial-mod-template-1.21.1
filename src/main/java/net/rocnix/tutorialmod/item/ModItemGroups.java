@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.STARLIGHT_ASHES);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);

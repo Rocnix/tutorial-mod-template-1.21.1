@@ -2,6 +2,7 @@ package net.rocnix.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.rocnix.tutorialmod.block.ModBlocks;
 import net.rocnix.tutorialmod.item.ModItemGroups;
 import net.rocnix.tutorialmod.item.ModItems;
@@ -25,5 +26,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600); // if there's many, this should be a custom class
 	}
 }
